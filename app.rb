@@ -12,4 +12,3 @@ end
 post '/mail_link_clicked' do
   log_event(params)
 end
-

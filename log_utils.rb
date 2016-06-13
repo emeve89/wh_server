@@ -1,3 +1,4 @@
+# Module that contains logic to log some event params
 module LogUtils
   def log_event(params)
     puts "===== EVENT: #{params['event']} ====="
