@@ -1,7 +1,7 @@
 require 'sinatra/base'
 require_relative 'log_utils'
 
-class WhListener < Sinatra::Application
+class App < Sinatra::Application
   helpers LogUtils
 
   # These endpoints must be defined in the mailgun control panel
